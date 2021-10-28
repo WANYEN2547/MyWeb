@@ -5,5 +5,5 @@ process.on('message', msg => {
     app.listen(msg.port, () => {
         console.log('listening on *:', msg.port);
     });
-    app.use(express.static(__dirname + '/index.html'));
+    app.use(express.static(__dirname + '/public'));
 });

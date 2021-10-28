@@ -4,7 +4,7 @@ const express = require('express');
 const request = require('request');
 const app = express();
 //setting
-const thread = 36;
+const thread = 16;
 const start_port = 9000;
 const loadserver_port = 80;
 const serveraddr = "http://localhost";
